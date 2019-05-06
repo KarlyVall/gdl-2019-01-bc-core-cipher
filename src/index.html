@@ -1,36 +1,59 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-   <head>
-      <title>Free Caesar Decrypter</title>
-      <meta charset="utf-8">
-      <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
-      <div  class="input">
-         <h1>
-            <img src="https://utilespc.files.wordpress.com/2014/07/candado.png?w=150"> &#x1F511; Free Decrypter
-         </h1>
-         <p>
-         <strong>Free decoder will help you to encrypt or decrypt that text that you don´t understand,
-         Caesar encryption is one of the simplest techniques for encrypting a message.
-         Is a type of substitution cipher, that is, each letter of the original text
-         is replaced by another that finds a fixed number of positions (scroll) later in the same alphabet.</strong>
-         </p>
-         <a target="_blank" href="http://practicalcryptography.com/ciphers/caesar-cipher/">More about Caesar Cipher</a>
-         <br>
-         <div class="buttons">
-            <input id="in" type="text" placeholder="Insert the text and then select encrypt or decrypt">
-            <input id="key" type="number" placeholder="Insert offset number" />
-         </div>
-         <br>
-         <div>
-            <button type="submit" id="encrypt">Encrypt</button>
-            <button type="submit" id="decrypt">Decrypt</button>
-         </div>
-         <br>
+<html lang="es" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Free Decrypter</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="http://drive.google.com/uc?export=view&id=1skpGW49wlbDYSTmltxh0VUfEoPhfHHB1"/>
+  </head>
+  <body>
+    <div class="input">
+      <h1>
+        &#x1F511; Free Decrypter
+      </h1>
+      <p>
+        <strong
+          >Free decoder will help you to encrypt or decrypt any text or word
+          that you require</strong
+        >
+      </p>
+      <a
+        class="link"
+        target="_blank"
+        href="http://practicalcryptography.com/ciphers/caesar-cipher/"
+        >Click here to see more information about Caesar Cipher</a
+      >
+      <br />
+      <div class="buttons">
+        <input
+          id="in"
+          class="inbutton"
+          type="text"
+          placeholder="Insert the text here"
+        />
+        <input
+          id="key"
+          class="keybutton"
+          type="number"
+          placeholder="Insert offset number"
+        />
       </div>
-      <textarea id="output" name="c" rows="15" cols="100" disabled="disabled"></textarea>
-      <script type="text/javascript" src="cipher.js"></script>
-      <script type="text/javascript" src="index.js"></script>
-   </body>
+      <br />
+      <div>
+        <button type="submit" id="encrypt">Encrypt</button>
+        <button type="submit" id="decrypt">Decrypt</button>
+      </div>
+      <br />
+    </div>
+    <textarea
+      id="output"
+      class="outputbutton"
+      name="c"
+      rows="10"
+      cols="80"
+    ></textarea>
+    <script type="text/javascript" src="cipher.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
 </html>

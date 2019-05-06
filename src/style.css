@@ -1,15 +1,22 @@
 body {
-	background-image: url("https://st2.depositphotos.com/1003595/8019/v/950/depositphotos_80190434-stock-illustration-light-gray-padlocks-wallpaper.jpg");
+	background-image: url("http://drive.google.com/uc?export=view&id=13bMaJYI1GcStAk1QMRwY1hAb21p-IWQu");
 	text-align: center;
-	background-color: white;
-	color: #424242;
 	font-family: Georgia;
-	font-size: 30px;
+	font-size: 38px;
 	font-weight: 400;
 	width: 100vw;
 	font-style: Georgia;
 }
-Button {
+.link{
+	font-size: 26px;
+	text-align: center;
+	text-decoration: none;
+	transition: color 0.8s linear 0.5s;
+}
+.link:hover{
+	color: rgb(161, 161, 3);
+}
+#encrypt {
 	font-style: Georgia;
 	border: 10px;
 	background-color: #FAFAFA;
@@ -28,9 +35,121 @@ Button {
 	background-image: -o-linear-gradient(top, #eb94d0, #FAFAFA);
 	background-image: linear-gradient(to bottom, #FAFAFA, #616161);
 }
-input {
-	padding: 30px;
+#encrypt:hover{
+	font-size: 24px;
+	transition: 0.7s;
+}
+#decrypt {
+	font-style: Georgia;
+	border: 10px;
+	background-color: #FAFAFA;
+	padding: 20px;
+	font-size: 20px;
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	text-shadow: 3px 2px 1px #FFFF00;
+	-webkit-box-shadow: 6px 5px 24px #FAFAFA;
+	-moz-box-shadow: 6px 5px 24px #FAFAFA;
+	box-shadow: 6px 5px 24px #666666;
+	background-image: -webkit-linear-gradient(top, #eb94d0, #FAFAFA);
+	background-image: -moz-linear-gradient(top, #eb94d0, #FAFAFA);
+	background-image: -ms-linear-gradient(top, #eb94d0, #FAFAFA);
+	background-image: -o-linear-gradient(top, #eb94d0, #FAFAFA);
+	background-image: linear-gradient(to bottom, #FAFAFA, #616161);
+}
+#decrypt:hover{
+	font-size: 24px;
+	transition: 0.7s;
+}
+
+.inbutton{
 	text-align: center;
+	font-size: 20px;
+	width: 500px;
+    height: 100px;
+    background: #f5c31d;
+    transition: width 2s, height 2s, margin 2s;
+	margin:auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	border-radius: 14px;
+    border-radius:14px;
+}
+.inbutton:hover{
+	width: 600px;
+    background: #b3b2af;
+}
+
+.keybutton{
+	text-align: center;
+	color:#000;
+	font-size: 20px;
+	width: 500px;
+    height: 100px;
+    background: #f5c31d;
+    transition: width 2s, height 2s, margin 2s;
 	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	border-radius: 14px;
+}
+.keybutton:hover{
+	width: 600px;
+    background: #b3b2af;
+}
+
+.outputbutton{
+	padding: 10px;
+	text-align: center;
 	width: 50%;
+	margin: auto;
+	margin-top: 50px;
+	background-color: #eeebc4;
+}
+@media screen and (max-width: 50.75rem) and (min-width: 23.43rem){
+	h1{
+	font-size: 3.7rem;	
+	}
+	p{
+		font-size: 1rem;
+		margin-right: 1rem;
+	}
+	.link{
+		font-size: 1rem;
+	}
+	.inbutton{
+		width:350px;
+		margin-right: 1rem;
+	}
+	.keybutton{
+		width:350px;
+		margin-right: 1rem;
+	}
+	.outputbutton{
+		width: 300px;
+		margin-right: 1rem;
+	}
+} 
+
+@media screen and (max-width: 46rem) and (min-width: 25.85rem){
+	p{
+		font-size: 1rem;
+		margin-right: 1rem;
+	}
+	.link{
+		font-size: 1rem;
+	}
+	.inbutton{
+		width:350px;
+		margin-right: 1rem;
+	}
+	.keybutton{
+		width:350px;
+		margin-right: 1rem;
+	}
+	.outputbutton{
+		width: 300px;
+		margin-right: 1rem;
+	}
 }

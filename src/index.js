@@ -14,3 +14,4 @@ function extraerdatosdec (){
   document.getElementById('output').innerHTML = output;
 }
 document.getElementById("decrypt").addEventListener("click",extraerdatosdec);
+
