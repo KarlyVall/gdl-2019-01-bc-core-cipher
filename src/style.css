@@ -7,6 +7,11 @@ body {
 	width: 100vw;
 	font-style: Georgia;
 }
+h2{
+	font-size: 20px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
 .link{
 	font-size: 26px;
 	text-align: center;
